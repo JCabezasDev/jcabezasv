@@ -3438,6 +3438,102 @@ footer a:hover, footer a:focus {
     display: none;
 }
 
+/* FOOTER ICONOS HABILIDADES  */
+.footer-social2 {
+    list-style: none;
+    margin-top: 3rem;
+   /* margin-left: 0;*/
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.3rem;
+   /* text-transform: uppercase;*/
+    letter-spacing: .3rem;
+    
+}
+
+.footer-social2:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.footer-social2 li {
+    display: inline-block;
+    padding-left: 0;
+    margin-right: 4.9rem; /* Distancia entre bloque de icono+palabra*/
+    line-height: 3.9rem;
+    vertical-align: middle;
+}
+
+.footer-social2 li::after {
+     /* content: "|";
+    color: rgba(0, 0, 0, 0.15);
+    padding-left: 0.9rem;  */
+    
+}
+
+.footer-social2 li i {
+    font-size: 1.7rem;
+    line-height: 3rem;
+    vertical-align: middle;
+    
+}
+
+.footer-social2 li span {
+    margin-left: .6rem;
+    
+}
+
+.footer-social2 li a {
+    color: #0d0c0c;
+    
+    
+}
+
+.footer-social2 li:last-child {
+    margin-right: 0;
+    
+}
+
+.footer-social2 li:last-child::after {
+    display: none;
+    
+}
+
+.iskills{
+text-align: center;
+}
+
+.wskills{
+margin-top: 0.1rem;
+text-align: center;
+
+}
+/*SEPARACIÓN DE MARGEN EN LOS ICONOS DE HABILIDADES*/
+.iskillsf{
+    text-align: center;
+    margin-left: 12rem;
+    }
+    
+.wskillsf{
+    margin-top: 0.1rem;
+    text-align: center;
+    
+}
+
+.footer-site-logo2 {
+    display: block;
+    width: 130px;
+    margin-left: 14rem;
+}
+
+.footer-logo2 {
+    
+    margin-left: 14rem;
+}
+
+/*FIN FOOTER ICONOS HABILIDADES*/
+
 .footer-bottom {
     margin-top: 7.2rem;
     text-align: center;
