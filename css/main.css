@@ -3447,13 +3447,68 @@ footer a:hover, footer a:focus {
     font-size: 1.3rem;
    /* text-transform: uppercase;*/
     letter-spacing: .3rem;
+    position: relative;
+    flex-direction: column;
+   
     
+    
+    
+    
+}
+@media all and (max-width: 20%) {
+    .footer-social2 .s1 .w1{
+      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .footer-social2 .s2 .w2{
+      
+      order: 1;
+      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .footer-social2 .s3 .w3{
+      
+      order: 2;
+      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .footer-social2 .s4 .w4{
+       
+        order: 3;
+        flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      }
+      .footer-social2 .s5 .w5{
+       
+        order: 4;
+        flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      }
+      .footer-social2 .s6 .w6{
+       
+        order: 5;
+        flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      }
 }
 
 .footer-social2:after {
     content: "";
     display: table;
     clear: both;
+    width: 100%;
     
 }
 
@@ -3502,22 +3557,28 @@ footer a:hover, footer a:focus {
 
 .iskills{
 text-align: center;
+
+
 }
 
 .wskills{
 margin-top: 0.1rem;
 text-align: center;
 
+
 }
 /*SEPARACIÓN DE MARGEN EN LOS ICONOS DE HABILIDADES*/
-.iskillsf{
+.s1{
     text-align: center;
     margin-left: 12rem;
+    
+    
     }
     
-.wskillsf{
+.w1{
     margin-top: 0.1rem;
     text-align: center;
+    
     
 }
 
