@@ -3506,6 +3506,36 @@ footer a:hover, footer a:focus {
     }
  }
 
+ @media all and (max-width: 1400px) {
+    .footer-social2 {
+        list-style: none;
+        margin-top: 3rem;
+       /* margin-left: 0;*/
+        font-family: "montserrat-regular", sans-serif;
+        font-size: 1.3rem;
+       /* text-transform: uppercase;*/
+        letter-spacing: .3rem;
+        
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 3rem;
+     }
+
+     .s1{
+        text-align: center;
+        margin-left: -12rem;
+        
+        
+        }
+        
+    .w1{
+        margin-top: 0.1rem;
+        text-align: center;
+        
+        
+    }
+ }
+
 
 /* @media all and (max-width: 320px) {
     #s1::after{
