@@ -3447,20 +3447,104 @@ footer a:hover, footer a:focus {
     font-size: 1.3rem;
    /* text-transform: uppercase;*/
     letter-spacing: .3rem;
-    position: relative;
-    flex-direction: column;
+    
+    
+
+    
    
     
     
     
     
 }
-@media all and (max-width: 20%) {
+
+
+@media all and (max-width: 360px) {
+    .footer-social2{
+        list-style: none;
+        margin-top: 3rem;
+       /* margin-left: 0;*/
+        font-family: "montserrat-regular", sans-serif;
+        font-size: 1.3rem;
+       /* text-transform: uppercase;*/
+        letter-spacing: .3rem;
+        
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 3rem;
+     }
+     
+ }
+
+ @media all and (max-width: 1080px) {
+    .footer-social2 {
+        list-style: none;
+        margin-top: 3rem;
+       /* margin-left: 0;*/
+        font-family: "montserrat-regular", sans-serif;
+        font-size: 1.3rem;
+       /* text-transform: uppercase;*/
+        letter-spacing: .3rem;
+        
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 3rem;
+     }
+
+     .s1{
+        text-align: center;
+        margin-left: -12rem;
+        
+        
+        }
+        
+    .w1{
+        margin-top: 0.1rem;
+        text-align: center;
+        
+        
+    }
+ }
+
+
+/* @media all and (max-width: 320px) {
+    #s1::after{
+      
+      content: "\a";
+        white-space: pre;
+    }
+    #s2::after{
+      
+      content: "\a";
+      white-space: pre;
+     
+    }
+    #s3::after{
+        content: "\a";
+        white-space: pre;
+    }
+    #s4::after{
+       
+        content: "\a";
+        white-space: pre;
+      }
+      #s5::after{
+       
+        content: "\a";
+        white-space: pre;
+      }
+      #s6::after{
+       
+        content: "\a";
+        white-space: pre;
+      } */
+/* @media all and (min-width: 20%) {
     .footer-social2 .s1 .w1{
       flex-direction: column;
       display: flex;
       flex-wrap: wrap;
       width: 100%;
+      display:block
     }
     .footer-social2 .s2 .w2{
       
@@ -3469,6 +3553,7 @@ footer a:hover, footer a:focus {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
+      display:block
     }
     .footer-social2 .s3 .w3{
       
@@ -3477,6 +3562,7 @@ footer a:hover, footer a:focus {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
+      display:block
     }
     .footer-social2 .s4 .w4{
        
@@ -3485,6 +3571,7 @@ footer a:hover, footer a:focus {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
+      display:block
       }
       .footer-social2 .s5 .w5{
        
@@ -3493,6 +3580,7 @@ footer a:hover, footer a:focus {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
+      display:block
       }
       .footer-social2 .s6 .w6{
        
@@ -3501,8 +3589,9 @@ footer a:hover, footer a:focus {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
-      }
-}
+      display:block
+      } */
+
 
 .footer-social2:after {
     content: "";
