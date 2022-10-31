@@ -3536,6 +3536,41 @@ footer a:hover, footer a:focus {
     }
  }
 
+ /*GRID DE HABILIDADES***************************************************************************************
+ *************************************************+
+ ****************************************+
+ *************************+*/
+
+ .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+ }
+/*
+ .grid-item:hover {
+    efecto de agrandar al pasar por encima
+    filter: opacity(0.9);
+    transform: scale(1.04);
+ }
+*/
+ .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(190px,1fr));
+    grid-auto-rows: minmax(120px,auto);
+    gap: 50px;
+    padding: 20px;
+    padding-top: 40px;
+    padding-left: 65px;
+    padding-right: 65px;
+ }
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+ }
+
 
 /* @media all and (max-width: 320px) {
     #s1::after{
